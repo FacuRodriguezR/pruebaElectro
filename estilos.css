@@ -4,6 +4,17 @@ body{
     background-color: beige;
 }
 
+.nuevosIngresos{
+    width: 100%;
+    text-align: center;
+}
+.nuevosIngresos img{
+    max-width: 1100px;
+    padding: 14px 0 14px 0;
+    
+    
+}
+
 .electros {
     display: flex;
     flex-wrap: wrap;
@@ -34,4 +45,43 @@ body{
     font-weight: 500;
     color: #3d3d3d;
 
+}
+
+.logopagina{
+    border-bottom: 1px gray ;
+    padding: 30px;
+    
+}
+.logopagina img {
+    width: 150px;
+
+}
+
+/* nav */
+
+.navSection {
+    border-top:1px solid rgb(212, 212, 212) ;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, .25);
+    padding: 20px;
+}
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav li {
+    list-style: none;
+    padding: 0 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(30, 30, 117);
+}
+
+@media ( max-width: 950px ) {
+    .nuevosIngresos img{
+        width: 100%;    
+    }
+    .nav li {
+        display: block;
+        margin: 20px;
+    }
 }
