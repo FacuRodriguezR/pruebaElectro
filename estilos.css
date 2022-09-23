@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: beige;
+}
+
+.electros {
+    display: flex;
+    flex-wrap: wrap;
+}
+.productos {
+    padding: 20px;
+}
+
+.productos img{
+    
+    height: 150px;
+    border-radius: 100px;
+    transition: all .3s ease-in-out;
+   
+}
+.productos img:hover {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .25) ;
+    transform: scale(1);
+}
