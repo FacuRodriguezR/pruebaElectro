@@ -7,6 +7,7 @@ body{
 .electros {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 .productos {
     padding: 20px;
