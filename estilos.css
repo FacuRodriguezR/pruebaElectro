@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #e3e3e3;
+  background-color: #efefef;
 }
 
 .nuevosIngresos {
@@ -75,21 +75,26 @@ body {
 
 /* cards */
 .cardsProdBody {
-  display: block;
+  display: flex;
   margin: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  
 }
 .cardsprod {
   padding-bottom: 20px;
   max-width: 250px;
   text-align: center;
   background-color: white;
+  padding: 7px;
+  margin: 7px;
 }
 .cardsprod img {
   width: 250px;
 }
 .cardsprod h2 {
   text-align: center;
-  font-size: 16px;
+  font-size: 17px;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 200;
   background-color: white;
@@ -99,7 +104,7 @@ body {
 .tituloProd {
   margin: 20px;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 30px;
+  font-size: 35px;
 }
 .descuentoDiv {
   display: inline;
