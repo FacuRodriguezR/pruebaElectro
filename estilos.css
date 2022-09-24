@@ -1,93 +1,156 @@
-body{
-    margin: 0;
-    padding: 0;
-    background-color: beige;
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #e3e3e3;
 }
 
-.nuevosIngresos{
-    width: 100%;
-    text-align: center;
+.nuevosIngresos {
+  width: 100%;
+  text-align: center;
 }
-.nuevosIngresos img{
-    max-width: 1100px;
-    padding: 14px 0 14px 0;
-    
-    
+.nuevosIngresos img {
+  max-width: 1100px;
+  padding: 14px 0 14px 0;
 }
 
 .electros {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .productos {
-    padding: 20px;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    
-
+  padding: 20px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.productos img{
-    
-    height: 150px;
-    border-radius: 100px;
-    transition: all .3s ease-in-out;
-   
+.productos img {
+  height: 150px;
+  border-radius: 100px;
+  transition: all 0.3s ease-in-out;
 }
 .productos img:hover {
-    box-shadow: 0 5px 10px rgba(0, 0, 0, .25) ;
-    transform: scale(1);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+  transform: scale(1);
 }
 
 .productos h2 {
-    font-size: 1em;
-    font-weight: 500;
-    color: #3d3d3d;
-
+  font-size: 1em;
+  font-weight: 500;
+  color: #3d3d3d;
 }
 
-.logopagina{
-    border-bottom: 1px gray ;
-    padding: 30px;
-    
+.logopagina {
+  border-bottom: 1px gray;
+  padding: 30px;
 }
 .logopagina img {
-    width: 150px;
-
+  width: 150px;
 }
 
 /* nav */
 
 .navSection {
-    border-top:1px solid rgb(212, 212, 212) ;
-    box-shadow: 0 4px 5px rgba(0, 0, 0, .25);
-    padding: 20px;
+  border-top: 1px solid rgb(212, 212, 212);
+  box-shadow: 0 4px 5px rgba(0, 0, 0, 0.25);
+  padding: 2px;
 }
-.nav{
-    display: flex;
-    flex-wrap: wrap;
+.nav {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .nav li {
-    list-style: none;
-    padding: 0 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #7c7c7c;
-    transition: all .4s ease-in-out;
+  list-style: none;
+  padding: 0 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #7c7c7c;
+  transition: all 0.4s ease-in-out;
 }
 
-.nav li:hover{
-    color: #131363;
-    transform: scale(1);
+.nav li:hover {
+  color: #1e73be;
+  transform: scale(1);
 }
 
-@media ( max-width: 950px ) {
-    .nuevosIngresos img{
-        width: 100%;    
-    }
-    .nav li {
-        display: block;
-        margin: 20px;
-    }
+/* cards */
+.cardsProdBody {
+  display: block;
+  margin: 20px;
+}
+.cardsprod {
+  padding-bottom: 20px;
+  max-width: 250px;
+  text-align: center;
+  background-color: white;
+}
+.cardsprod img {
+  width: 250px;
+}
+.cardsprod h2 {
+  text-align: center;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  background-color: white;
+  padding: 20px;
+}
+
+.tituloProd {
+  margin: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+}
+.descuentoDiv {
+  display: inline;
+}
+.precioDescuento {
+  text-decoration: line-through;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  color: #7c7c7c;
+}
+.descuento {
+  background-color: #b30077;
+  padding: 2px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.precioFinal {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.verMas {
+    background-color: #cfcfcf;
+  border: none;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+  transition: all 0.2s ease-in-out;
+  border-radius: 2px;
+}
+.verMas:hover {
+  background-color: #1e73be;
+  color: white;
+  transform: scale(1);
+}
+
+@media (max-width: 950px) {
+  .nuevosIngresos img {
+    width: 100%;
+  }
+  .nav li {
+    display: block;
+    margin: 20px;
+  }
 }
